@@ -1,6 +1,6 @@
 {
   "name": "djspc",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "Package to create and initialize a discord.js project.",
   "main": "index.js",
   "scripts": {
