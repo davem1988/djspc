@@ -1,0 +1,28 @@
+{
+  "name": "botcreator",
+  "version": "1.0.0",
+  "description": "Package to create and initialize a discord.js project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davem1988/BotMakerNPM.git"
+  },
+  "keywords": [
+    "BM"
+  ],
+  "author": "Dedemg1988",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davem1988/BotMakerNPM/issues"
+  },
+  "homepage": "https://github.com/davem1988/BotMakerNPM#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.4",
+    "ncp": "^2.0.0",
+    "path": "^0.12.7"
+  }
+}
