@@ -15,6 +15,9 @@
   ],
   "author": "Dedemg1988",
   "license": "ISC",
+  "bin": {
+    "djspc": "./bin/index.js"
+  },
   "bugs": {
     "url": "https://github.com/davem1988/djspc/issues"
   },

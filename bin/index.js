@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const fs = require("fs");
 const path = require("path");
 const ncp = require("ncp");
@@ -6,7 +7,7 @@ const { prompt } = require("inquirer");
 
 
 
-function djspc(){
+function main(){
 
   const config = {
       name: "discord.js",
@@ -42,7 +43,7 @@ function djspc(){
   }
 
   function getPkg(obj) {
-    const pkg = require("./package.json");
+    const pkg = require("../package.json");
 
     for (const [key, val] of Object.entries(obj)) {
       pkg[key] = val;
@@ -108,4 +109,4 @@ function djspc(){
 }
 
 
-module.exports.djspc = djspc;
+main()
