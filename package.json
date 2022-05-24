@@ -1,5 +1,5 @@
 {
-  "name": "botcreator",
+  "name": "jsbotcreator",
   "version": "1.0.0",
   "description": "Package to create and initialize a discord.js project.",
   "main": "index.js",
