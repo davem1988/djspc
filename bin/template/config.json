@@ -1,7 +1,7 @@
 {
     "config": {
 
-        "Token":"OTY4NTMyNDk5NDA1ODg5NTU3.GlHsD-.Xi-kcGkHMzdMPWq-xKFI1q2O9Zs_dmFgvOct6c",
+        "Token":"YOUR_BOT_TOKEN_HERE",
         "Prefix": "!!"
     }
 }
