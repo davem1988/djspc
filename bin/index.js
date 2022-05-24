@@ -7,7 +7,7 @@ const { prompt } = require("inquirer");
 
 
 
-
+  
 
 function main(){
 
@@ -206,7 +206,6 @@ function main(){
           console.log(isExists(dest))
 
           if(isExists(dest) === false) {
-            await Promise.all([createDir(`commands`)]);
             const newDir = await Promise.all([createDir(dest)]);
 
             if(newDir){
