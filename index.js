@@ -6,7 +6,7 @@ const { prompt } = require("inquirer");
 
 
 
-function jsbotcreator(){
+function djspc(){
 
   const config = {
       name: "discord.js",
@@ -108,4 +108,4 @@ function jsbotcreator(){
 }
 
 
-module.exports.jsbotcreator = jsbotcreator;
+module.exports.djspc = djspc;
